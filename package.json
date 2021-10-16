@@ -1,6 +1,6 @@
 {
   "name": "@hexlet/code",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "It's a game",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/xegrassa/frontend-project-lvl1.git"
   },
-
   "type": "module",
   "bin": {
     "brain-games": "bin/brain-games.js"
@@ -20,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/xegrassa/frontend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/xegrassa/frontend-project-lvl1#readme"
+  "homepage": "https://github.com/xegrassa/frontend-project-lvl1#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
