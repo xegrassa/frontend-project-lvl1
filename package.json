@@ -16,7 +16,8 @@
     "brain-calc": "bin/games/brain-calc.js",
     "brain-even": "bin/games/brain-even.js",
     "brain-even": "bin/games/brain-gcd.js",
-    "brain-even": "bin/games/brain-progression.js"
+    "brain-even": "bin/games/brain-progression.js",
+    "brain-even": "bin/games/brain-prime.js"
   },
   "author": "Artem",
   "license": "ISC",
