@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import _ from 'lodash';
 import engine from '../src/index.js';
 
@@ -18,7 +20,7 @@ const genQuestionAndAnswer = () => {
   }
   return {
     question: number,
-    answer: answer,
+    answer,
   };
 };
 

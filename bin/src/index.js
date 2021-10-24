@@ -17,9 +17,10 @@ function engine(rule, game) {
     } else {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${answer}'.`);
       console.log(`Let's try again, ${name}!`);
-      break;
+      return;
     }
   }
+  console.log(`Congratulations, ${name}!`);
 }
 
 export default engine;

@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import _ from 'lodash';
 import engine from '../src/index.js';
 
@@ -13,7 +15,7 @@ const genQuestionAndAnswer = () => {
   const question = `${questionNumber1} ${operationSymbol} ${questionNumber2}`;
   const answer = operation[operationSymbol](questionNumber1, questionNumber2);
   return {
-    question: question,
+    question,
     answer: answer.toString(),
   };
 };
